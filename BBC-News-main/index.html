@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking bootstrap  -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Linking external style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking favicon -->
+    <link rel="shortcut icon" href="bbc favicon.png" type="image/x-icon" width="16" height="16">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <title>BBC News</title>
+    
+</head>
+<body>
+    <div class="container ">
+        <!-- First line of navigation bar -->
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/bbc-blocks-dark.png"
+                alt="BBC">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="https://static.bbci.co.uk/id/0.27.15/img/bbcid_orb_signin_dark.png" alt="Profile">
+                        <span>Sign in</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home  <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">sport</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Reel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Worklife</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Future</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Culture</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Music</a>
+                    <a class="dropdown-item" href="#">TV</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Weather</a>
+                    <a class="dropdown-item" href="#">Sounds</a>
+                  </div>
+                </li>       
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <a class="search-button" href="#">
+                        <img src="https://static.bbci.co.uk/frameworks/barlesque/2.83.4/orb/4/img/orb-search-dark.png"
+                            alt="Search">
+                    </a>
+                  </form>
+              </ul>
+            </div>
+          </nav>
+          <!-- Second line of navigation bar -->
+        
+        <nav class="navbar-dark bg-company text-white">
+                        
+            <div id="department">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                    <a href="#">
+                        <span style="color:white;"><h1>News</h1></span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        
+        </nav>
+        <nav class="navbar navbar-expand-xl navbar-dark bg-company">
+
+        
+            <div class="red-header">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coronovirus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Asia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">UK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Buisness</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tech</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Health</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">World News TV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">In Pictures</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Reality Check</a>
+                            <a class="dropdown-item" href="#">Newsbeat</a>
+                            <a class="dropdown-item" href="#">Long Reads</a>
+                        </div>
+                        </li>  
+                </ul>
+            </div>
+        
+        </nav>
+        <nav class="navbar navbar-expand-xl navbar-light"> 
+            <div class="country">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">England</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">N. Ireland</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Scotland</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Alba</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cymru</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="content">
+                <div class="main-content">
+                    <article class="full-width">
+                        <a href="https://www.bbc.com/news/world-asia-india-50233951" target="_blank">
+                            <h2>MS Dhoni retirement leaves a void in world cricket</h2>
+                            <img class="article-image" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/677C/production/_110529462_gettyimages-1154898763.jpg" alt="Article image" width="400" height="220">
+                            <br>
+                            <p><b>India legend and World Cup-winning captain MS Dhoni says he has retired.</b></p>
+                            <p>The uncertainties leading up to the retirement of Mahendra Singh Dhoni will be forgotten soon enough,
+                                and what will remain are the certainties and the pride of performance over the years.</p>
+                        </a>
+                        <p class="post-data">Time posted | <a class="country" href="#">Country</a></p>
+                        <h2>BBC Videos</h2>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <figure>
+                                    <iframe width="400" height="500" frameborder="0" src="https://www.bbc.com/news/av-embeds/56029760/vpid/p096p9qy"></iframe>
+                                    <figcaption><h5>Nasa's pioneering black women</h5></figcaption></figure>
+                                </div>
+                            </div>
+
+                            <div class="col-sm">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <figure>
+                                    <iframe width="400" height="500" frameborder="0" src="https://www.bbc.com/news/av-embeds/57989204/vpid/p09qxmvk"></iframe>
+                                    <figcaption><h5>The man who 'killed' Pluto</h5></figcaption></figure>
+                                </div>
+                            </div>  
+                        </div>
+                        <br><br>
+                        <h2>BBC Stories</h2>
+                        <div class="row">
+                            <div class="col-sm">
+                                <a href="https://www.bbc.com/worklife/article/20210727-the-coded-words-of-job-adverts-that-reveal-important-clues" target="_blank">
+                                <figure>
+                                    <img src="https://ychef.files.bbci.co.uk/1600x900/p09qkg5q.webp" alt="Article image" width="200" height="150"  >
+                                    <figcaption> The coded words of job adverts <br>that reveal important clues Share</figcaption>
+                                </figure>
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <a href="https://www.bbc.com/worklife/article/20210722-why-we-dont-dole-out-many-compliments-but-should" target="_blank">
+                                <figure>
+                                    <img src= "https://ychef.files.bbci.co.uk/1600x900/p09q4dcx.webp"alt="Article image" width="200" height="150">
+                                    <figcaption> Why we don't dole out many <br> compliments – but should</figcaption>
+                                </figure>
+                                </a>
+                            </div>
+                            <div class="col-sm">
+                                <a href="https://www.bbc.com/future/article/20210729-why-snow-in-the-alps-is-turning-red" target="_blank">
+                                    <figure>
+                                        <img src="https://ychef.files.bbci.co.uk/1600x900/p09qsqnm.webp" alt="Alp Image" width="200" height="150">
+                                        <figcaption>The secrets of the Alps' <br>strange red snow</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+             
+                <div class="sidebar">
+                    <br><br>
+                    <h2>Watch/Listen from BBC Youtube archives</h2>
+                    <div class="row">
+                        <div class="col-sm">
+                            <article>
+                                <a href="https://www.youtube.com/watch?v=eHMViKOOfg8" target="_blank">
+                                    <img src="https://img.youtube.com/vi/eHMViKOOfg8/hqdefault.jpg" alt="Sundar Pichai" width="200" height="150">
+                                    <div class="image">
+                                        <img src="https://miro.medium.com/freeze/max/768/1*IDJ4x4E-bOypnEZdA5TGHQ.gif" alt="Article image" width="16" height="16">
+                                        <div class="time">8:27</div>
+                                    </div>
+                                    <h5>Google boss Sundar Pichai warns of threats to free and open internet - BBC News</h5>
+                                    <p class="post-data">Jul 12, 2021</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="col-sm">
+                            <article>
+                                <a href="https://www.youtube.com/watch?v=N_C10LzH-aA" target="_blank">
+                                    <img src="https://img.youtube.com/vi/N_C10LzH-aA/hqdefault.jpg" alt="Malala" width="200" height="150">
+                                    <div class="image">
+                                        <img src="https://miro.medium.com/freeze/max/768/1*IDJ4x4E-bOypnEZdA5TGHQ.gif" alt="Article image" width="16" height="16">
+                                        <div class="time">5:43</div>
+                                    </div>
+                                    <h5><span class="tag sport"></span>Malala says girls' education 'worth fighting for' - BBC News</h5>
+                                    <p class="post-data">Jul 29, 2021</p>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="col-sm">
+                            <article>
+                                <a href="https://www.youtube.com/watch?v=5aDrUf0eQPc" target="_blank">
+                                    <img src="https://img.youtube.com/vi/5aDrUf0eQPc/hqdefault.jpg" alt="Elon musk/Jeff"width="200" height="150">
+                                    <div class="image">
+                                        <img src="https://miro.medium.com/freeze/max/768/1*IDJ4x4E-bOypnEZdA5TGHQ.gif" alt="Article image" width="16" height="16">
+                                        <div class="time">5:38</div>
+                                    </div>
+                                    <h5>US super-rich 'pay almost no income tax' - BBC News</h5>
+                                    <p class="post-data">Jun 9, 2021</p>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
